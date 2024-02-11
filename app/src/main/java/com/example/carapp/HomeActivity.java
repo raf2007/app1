@@ -22,17 +22,21 @@ import androidx.appcompat.app.ActionBarDrawerToggle;
 public class HomeActivity extends AppCompatActivity {
 
     private DrawerLayout drawerLayout;
-    private ActionBarDrawerToggle actionBarDrawerToggle;
+    Button add_button;
+    ImageView add_icon;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
-        drawerLayout = findViewById(R.id.drawer_layout);
-        NavigationView navigationView = findViewById(R.id.nav_view);
+        add_button = findViewById(R.id.addButton);
+        add_icon = findViewById(R.id.menuIcon);
 
-        actionBarDrawerToggle = new ActionBarDrawerToggle(this, drawerLayout, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
+        /*drawerLayout = findViewById(R.id.addButton);
+        NavigationView navigationView = findViewById(R.id.nav_view);*/
+
+        /*actionBarDrawerToggle = new ActionBarDrawerToggle(this, drawerLayout, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawerLayout.addDrawerListener(actionBarDrawerToggle);
         actionBarDrawerToggle.syncState();
 
@@ -54,15 +58,15 @@ public class HomeActivity extends AppCompatActivity {
                 drawerLayout.closeDrawer(GravityCompat.START);
                 return true;
             }
-        });
+        });*/
     }
 
-    @Override
+    /*@Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle ActionBarDrawerToggle clicks
         if (actionBarDrawerToggle.onOptionsItemSelected(item)) {
             return true;
         }
         return super.onOptionsItemSelected(item);
-    }
+    }*/
 }
