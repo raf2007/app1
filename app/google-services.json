@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "1035783150450",
+    "project_id": "automate-hub-badb4",
+    "storage_bucket": "automate-hub-badb4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1035783150450:android:2ff241fbdb2842d9271beb",
+        "android_client_info": {
+          "package_name": "cam.company.yas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1035783150450-5boonsn06n0mltt8i3o0l8stp0o9a7m5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOyW9vfGY7h0rfJbzP1tpO7Q6d5diLDwI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1035783150450-5boonsn06n0mltt8i3o0l8stp0o9a7m5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1035783150450:android:937e9ae08370ac96271beb",
+        "android_client_info": {
+          "package_name": "com.example.carapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1035783150450-5boonsn06n0mltt8i3o0l8stp0o9a7m5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOyW9vfGY7h0rfJbzP1tpO7Q6d5diLDwI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1035783150450-5boonsn06n0mltt8i3o0l8stp0o9a7m5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
